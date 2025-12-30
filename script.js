@@ -76,10 +76,6 @@ setInterval(()=>{
     document.getElementById("popup-container").appendChild(p);
 },700);
 
-/* AUDIO */
-const noise=document.getElementById("noise");
-noise.volume=0.4;
-setInterval(()=>noise.volume=Math.min(1,noise.volume+0.05),4000);
 
 /* CURSOR CHASER */
 document.addEventListener("mousemove",e=>{
@@ -88,10 +84,6 @@ document.addEventListener("mousemove",e=>{
     c.style.top=e.clientY+10+"px";
 });
 
-/* SCROLL HIJACK */
-window.addEventListener("scroll",()=>{
-    window.scrollTo(Math.random()*document.body.scrollWidth,Math.random()*document.body.scrollHeight);
-});
 
 /* TEXT CORRUPTION */
 setInterval(()=>{
@@ -108,8 +100,4 @@ const titles=["⚠️ SYSTEM FAILURE","🔥 BREAKING 🔥","DO NOT CLOSE","THIS 
 let ti=0;
 setInterval(()=>{document.title=titles[ti++%titles.length];},500);
 
-/* CPU BURN */
-setInterval(()=>{
-    let waste=[];
-    for(let i=0;i<100000;i++)waste.push(Math.random());
-},1000);
+
