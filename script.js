@@ -1,5 +1,5 @@
 const FIXED_USERNAME = "admin";
-const FIXED_PASSWORD = "password123";
+const FIXED_PASSWORD = "ilovejew";
 
 const loginBtn = document.getElementById("loginBtn");
 const loginError = document.getElementById("loginError");
