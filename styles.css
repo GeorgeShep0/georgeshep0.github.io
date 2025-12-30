@@ -46,7 +46,7 @@ header {
 .image-placeholder {
     height: 300px;
     border: 10px solid yellow;
-    background: url("hero.png")
+    background-image: url("hero.png")
     color: white;
     display: flex;
     justify-content: center;
