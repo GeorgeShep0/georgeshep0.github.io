@@ -50,7 +50,7 @@ function spawnFace(){
     const f=document.createElement("div");
     f.className="face-clone";
     const img=document.createElement("img");
-    img.src="https://via.placeholder.com/150";
+    img.src="IMG_0750.jpg";
     f.appendChild(img);
     f.style.left=Math.random()*window.innerWidth+"px";
     f.style.top=Math.random()*window.innerHeight+"px";
