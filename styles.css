@@ -46,7 +46,7 @@ header {
 .image-placeholder {
     height: 300px;
     border: 10px solid yellow;
-    background: repeating-linear-gradient(45deg,#333,#333 20px,#666 20px,#666 40px);
+    background: url("hero.png")
     color: white;
     display: flex;
     justify-content: center;
